@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+function greeting(name, callback){
+    console.log('Hello ' + name);
+    callback();
+}
+
+// callback fucntion
+
+function shwoDone(){
+    console.log('Done greeting!')
+}
+
+// pasing function as an argument
+
+greeting('Alice', showDone);
+
+
+
+    </script>
+    
+</body>
+</html>
